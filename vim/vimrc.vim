@@ -4,8 +4,7 @@
 	set autoindent
 	set tabstop=4
 	set shiftwidth=4
-	set dir=/tmp/
-	set relativenumber 
+	set dir=/tmp/ 
 	set number
 
 	autocmd Filetype html setlocal sw=2 expandtab
