@@ -8,6 +8,7 @@ set_prompt() {
 
 	# [
 
+
 	PS1="%{$fg[white]%}[%{$reset_color%}"
 	
 	PS1+="%{$fg[yellow]%}$(hostname)%{$reset_color%}"
@@ -51,6 +52,7 @@ set_prompt() {
 }
 
 precmd_functions+=set_prompt
+
 
 preexec () {
    (( ${#_elapsed[@]} > 1000 )) && _elapsed=(${_elapsed[@]: -1000})
