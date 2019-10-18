@@ -42,6 +42,8 @@ alias cd="c"
 # For vim mappings:
 stty -ixon
 
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 # Completions
 # These are all the plugin options available: https://github.com/robbyrussell/oh-my-zsh/tree/291e96dcd034750fbe7473482508c08833b168e3/plugins
 #
