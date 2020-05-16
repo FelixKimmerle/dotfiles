@@ -16,7 +16,7 @@ mkdir -p /tmp/log
 # Settings
 export VISUAL=vim
 
-source ~/dotfiles/zsh/plugins/fixls.zsh
+source ~/Documents/dotfiles/zsh/plugins/fixls.zsh
 
 #Functions
 # Loop a command and show the output in vim
@@ -62,13 +62,13 @@ done
 
 compinit
 
-source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/history.zsh
-source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/key-bindings.zsh
-source ~/dotfiles/zsh/plugins/oh-my-zsh/lib/completion.zsh
-source ~/dotfiles/zsh/plugins/vi-mode.plugin.zsh
-source ~/dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/dotfiles/zsh/keybindings.sh
+source ~/Documents/dotfiles/zsh/plugins/oh-my-zsh/lib/history.zsh
+source ~/Documents/dotfiles/zsh/plugins/oh-my-zsh/lib/key-bindings.zsh
+source ~/Documents/dotfiles/zsh/plugins/oh-my-zsh/lib/completion.zsh
+source ~/Documents/dotfiles/zsh/plugins/vi-mode.plugin.zsh
+source ~/Documents/dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/Documents/dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/Documents/dotfiles/zsh/keybindings.sh
 
 # Fix for arrow-key searching
 # start typing + [Up-Arrow] - fuzzy find history forward
@@ -84,8 +84,8 @@ if [[ "${terminfo[kcud1]}" != "" ]]; then
     bindkey "${terminfo[kcud1]}" down-line-or-beginning-search
 fi
 
-source ~/dotfiles/zsh/prompt.sh
-export PATH=$PATH:$HOME/dotfiles/utils
+source ~/Documents/dotfiles/zsh/prompt.sh
+export PATH=$PATH:$HOME/Documents/dotfiles/utils
 
 TRAPEXIT() {
     # commands to run here, e.g. if you
