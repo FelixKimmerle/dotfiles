@@ -43,7 +43,7 @@
 
 " Language Specific
 	" Tabs
-		so ~/Documents/dotfiles/vim/tabs.vim
+		so ~/dotfiles/vim/tabs.vim
 
 	" General
 		inoremap <leader>for <esc>Ifor (int i = 0; i < <esc>A; i++) {<enter>}<esc>O<tab>
